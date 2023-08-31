@@ -270,7 +270,7 @@ function foo() {
 
  function bar() {
   // barEnvironment
-  // outer: fooEnvironment — глобальное окружение
+  // outer: fooEnvironment — окружение функции foo
   // environmentRecord = {z: 30}
 
   var z = y + x; // переменная y найдена в fooEnvironment, а переменная x в globalEnvironment
